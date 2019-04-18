@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		959A1B332264A3C4005C63D9 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959A1B322264A3C4005C63D9 /* SearchTableViewCell.swift */; };
 		95D9087D225DCB80007467A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9087C225DCB80007467A8 /* AppDelegate.swift */; };
 		95D9087F225DCB80007467A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9087E225DCB80007467A8 /* ViewController.swift */; };
 		95D90882225DCB80007467A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D90880225DCB80007467A8 /* Main.storyboard */; };
@@ -15,6 +16,13 @@
 		95D9088A225DCB82007467A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D90888225DCB82007467A8 /* LaunchScreen.storyboard */; };
 		95D90895225DCB82007467A8 /* NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D90894225DCB82007467A8 /* NewsTests.swift */; };
 		95D908A0225DCB82007467A8 /* NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9089F225DCB82007467A8 /* NewsUITests.swift */; };
+		95D908AE225DCED3007467A8 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D908AD225DCED3007467A8 /* SearchTableViewController.swift */; };
+		95D908B0225DD427007467A8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D908AF225DD427007467A8 /* News.swift */; };
+		95D908B2225DDA82007467A8 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D908B1225DDA82007467A8 /* FeedTableViewController.swift */; };
+		95D908B9225F1716007467A8 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D908B7225F1716007467A8 /* FeedTableViewCell.swift */; };
+		95D908C0225F595E007467A8 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D908BE225F595E007467A8 /* Article+CoreDataClass.swift */; };
+		95D908C1225F595E007467A8 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D908BF225F595E007467A8 /* Article+CoreDataProperties.swift */; };
+		95D908C3225F6631007467A8 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D908C2225F6631007467A8 /* ArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		959A1B322264A3C4005C63D9 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		95D90879225DCB80007467A8 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D9087C225DCB80007467A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95D9087E225DCB80007467A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		95D9089B225DCB82007467A8 /* NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D9089F225DCB82007467A8 /* NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUITests.swift; sourceTree = "<group>"; };
 		95D908A1225DCB82007467A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D908AD225DCED3007467A8 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		95D908AF225DD427007467A8 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		95D908B1225DDA82007467A8 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		95D908B7225F1716007467A8 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedTableViewCell.swift; path = ../FeedTableViewCell.swift; sourceTree = "<group>"; };
+		95D908BE225F595E007467A8 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		95D908BF225F595E007467A8 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		95D908C2225F6631007467A8 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,8 @@
 		95D90870225DCB80007467A8 = {
 			isa = PBXGroup;
 			children = (
+				95D908BE225F595E007467A8 /* Article+CoreDataClass.swift */,
+				95D908BF225F595E007467A8 /* Article+CoreDataProperties.swift */,
 				95D9087B225DCB80007467A8 /* News */,
 				95D90893225DCB82007467A8 /* NewsTests */,
 				95D9089E225DCB82007467A8 /* NewsUITests */,
@@ -99,6 +117,7 @@
 		95D9087B225DCB80007467A8 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				95D908B7225F1716007467A8 /* FeedTableViewCell.swift */,
 				95D9087C225DCB80007467A8 /* AppDelegate.swift */,
 				95D9087E225DCB80007467A8 /* ViewController.swift */,
 				95D90880225DCB80007467A8 /* Main.storyboard */,
@@ -106,6 +125,11 @@
 				95D90888225DCB82007467A8 /* LaunchScreen.storyboard */,
 				95D9088B225DCB82007467A8 /* Info.plist */,
 				95D90883225DCB80007467A8 /* News.xcdatamodeld */,
+				95D908AD225DCED3007467A8 /* SearchTableViewController.swift */,
+				95D908AF225DD427007467A8 /* News.swift */,
+				95D908B1225DDA82007467A8 /* FeedTableViewController.swift */,
+				95D908C2225F6631007467A8 /* ArticleViewController.swift */,
+				959A1B322264A3C4005C63D9 /* SearchTableViewCell.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -196,6 +220,7 @@
 				TargetAttributes = {
 					95D90878225DCB80007467A8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					95D9088F225DCB82007467A8 = {
 						CreatedOnToolsVersion = 10.1;
@@ -260,8 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D9087F225DCB80007467A8 /* ViewController.swift in Sources */,
+				95D908B2225DDA82007467A8 /* FeedTableViewController.swift in Sources */,
+				95D908B9225F1716007467A8 /* FeedTableViewCell.swift in Sources */,
+				95D908C0225F595E007467A8 /* Article+CoreDataClass.swift in Sources */,
 				95D90885225DCB80007467A8 /* News.xcdatamodeld in Sources */,
+				95D908C3225F6631007467A8 /* ArticleViewController.swift in Sources */,
 				95D9087D225DCB80007467A8 /* AppDelegate.swift in Sources */,
+				95D908C1225F595E007467A8 /* Article+CoreDataProperties.swift in Sources */,
+				959A1B332264A3C4005C63D9 /* SearchTableViewCell.swift in Sources */,
+				95D908B0225DD427007467A8 /* News.swift in Sources */,
+				95D908AE225DCED3007467A8 /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.munkkeli.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
